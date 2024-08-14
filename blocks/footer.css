@@ -1,0 +1,16 @@
+.footer {
+    margin: 0px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    font-family: "Inter";
+    color: #ffffff;
+    background-color: #2A2C2F;
+}
+
+.footer__author {
+    margin-top: 92px;
+    margin-bottom: 24px;
+    font-size: 14px;
+    font-weight: 400;
+}
