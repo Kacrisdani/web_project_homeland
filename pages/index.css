@@ -3,12 +3,3 @@
 @import url(../blocks/span.css);
 @import url(../blocks/content.css);
 @import url(../blocks/footer.css);
-
-
-@media screen and (max-width:320px) {
-    .header {
-        display: block;
-
-    }
-    
-}
