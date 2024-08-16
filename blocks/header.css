@@ -23,12 +23,6 @@
     align-items: center;
 }
 
-.logo {
-    width: 100%;
-    max-width: 254px;
-    margin-top: 38px;
-}
-
 .header__image {
     width: 100%;
     max-width: 984px;
