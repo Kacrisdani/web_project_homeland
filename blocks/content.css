@@ -1,11 +1,12 @@
 .content {
-    display: block;
+    display: inline-block;
     width: 100%;
     max-width: 830px;
-    margin-left: 128px;
-    margin-right: 302px;
+    margin-left: 148px;
+    margin-right: 320px;
     font-family: "Inter";
     color: #ffffff;
+    
 }
     
 .content__title {

@@ -58,11 +58,6 @@
     .header__image {
         max-width: 768px;
     }
-
-    .logo {
-        margin-top: 30px;
-    }
-}
      
 @media screen and (max-width: 544px) {
     .header__title {
@@ -72,8 +67,7 @@
         
     .header__image {
         max-width: 544px;
-    }
-     
+    }   
 }
 
 @media screen and (max-width: 320px) {
@@ -86,10 +80,5 @@
         
     .header__image {
         max-width: 320px;
-    }
-
-    .logo {
-        max-width: 188px;
-        margin-top: 20px;
     }
 }
