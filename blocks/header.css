@@ -52,6 +52,7 @@
     .header__image {
         max-width: 768px;
     }
+}
      
 @media screen and (max-width: 544px) {
     .header__title {
