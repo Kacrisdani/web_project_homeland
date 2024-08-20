@@ -12,7 +12,8 @@
 
 @media screen and (max-width: 320px) {
     .span {
-        max-width: 2880px;
+        width: 100%;
+        max-width: 288px;
         font-size: 16px;
         line-height: 20px;
         margin-bottom: 40px;

@@ -6,7 +6,8 @@
 }
 
 .header__title {
-    width: 720px;
+    width: 100%;
+    max-width: 720px;
     margin: 90px 0 32px;
     font-size: 96px;
     font-weight: 900;
@@ -67,13 +68,14 @@
 
 @media screen and (max-width: 320px) {
     .header__title {
-        width: 228px;
+        width: 100%;
+        max-width: 228px;
         margin: 50px 0 16px;
         font-size: 40px;
         line-height: 44px;
     }
         
     .header__image {
-        max-width: 320px;
+       width: 100%;
     }
 }
