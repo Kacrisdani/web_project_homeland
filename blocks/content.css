@@ -2,12 +2,12 @@
     display: inline-block;
     width: 100%;
     max-width: 830px;
-    margin-left: 148px;
+    margin-left: 460px;
     font-family: "Inter";
     color: #ffffff;
     
 }
-    
+
 .content__title {
     margin-top: 92px;
     font-size: 54px;
@@ -36,18 +36,25 @@
     text-align: left;
 }
 
-
 @media screen and (max-width: 1024px) {
     .content {
-        max-width: 830px;
+        min-width: 720px;
+        max-width: 976px;
+        margin: 0 24px
     }
-    
+
+    .content__title {
+        margin-top: 64px;
+        font-size: 45px;
+        line-height: 49px;
+    }
+     
 }
 
 @media screen and (max-width: 768px) {
     .content {
         max-width: 720px;
-        margin-left: 24px;
+        margin: 0 24px;
         margin-right: 24px;
     }
 
@@ -58,25 +65,36 @@
     }
      
 }
-     
+
 @media screen and (max-width: 544px) {
     .content {
-        max-width: 830px;
-    }
-     
-}
-
-@media screen and (max-width: 320px) {
-    .content {
-        max-width: 288px;
-        margin: 0 auto;
-        margin-left: 16px;
-        margin-right: 16px;
+        min-width: 288px;
+        max-width: 350px;
+        margin: 0 16px;
     }
 
     .content__title {
+        margin: 0;
+        min-width: 288px;
+        max-width: 320px;
         margin-top: 64px;
         font-size: 32px;
         line-height: 35px;
     }
 }
+
+@media screen and (max-width: 320px) {
+    .content {
+        max-width: 288px;
+        margin: 0 16px;
+    }
+
+    .content__title {
+        margin: 0;
+        max-width: 288px;
+        margin-top: 64px;
+        font-size: 32px;
+        line-height: 35px;
+    }
+}
+

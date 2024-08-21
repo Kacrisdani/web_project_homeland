@@ -10,9 +10,8 @@
     margin-bottom: 64px;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 544px) {
     .span {
-        width: 100%;
         max-width: 288px;
         font-size: 16px;
         line-height: 20px;
