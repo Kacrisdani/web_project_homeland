@@ -20,8 +20,8 @@
 
 @media screen and (max-width: 544px) {
     .content {
+        min-width: 288px;
         max-width: 512px;
         margin: auto;
     }
 }
-
