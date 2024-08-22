@@ -1,100 +1,27 @@
 .content {
-    display: inline-block;
     width: 100%;
-    max-width: 830px;
-    margin-left: 460px;
     font-family: "Inter";
     color: #ffffff;
-    
-}
-
-.content__title {
-    margin-top: 92px;
-    font-size: 54px;
-    font-weight: 900;
-    line-height: 58px;
-}
-
-.content__subtitle {
-    margin-top: 40px;
-    font-size: 24px;
-    font-weight: 400;
-    line-height: 34px;
-}
-
-.content__author {
-    margin-top: 10px;
-    font-size: 24px;
-    text-align: right;
-}
-
-.content__paragraph {
-    margin-top: 32px;
-    font-size: 16px;
-    font-weight: 400;
-    line-height:26px;
-    text-align: left;
 }
 
 @media screen and (max-width: 1024px) {
     .content {
-        min-width: 720px;
         max-width: 976px;
-        margin: 0 24px
+        margin: auto;
     }
-
-    .content__title {
-        margin-top: 64px;
-        font-size: 45px;
-        line-height: 49px;
-    }
-     
 }
 
 @media screen and (max-width: 768px) {
     .content {
         max-width: 720px;
-        margin: 0 24px;
-        margin-right: 24px;
+        margin: auto;
     }
-
-    .content__title {
-        margin-top: 64px;
-        font-size: 45px;
-        line-height: 49px;
-    }
-     
 }
 
 @media screen and (max-width: 544px) {
     .content {
-        min-width: 288px;
-        max-width: 350px;
-        margin: 0 16px;
-    }
-
-    .content__title {
-        margin: 0;
-        min-width: 288px;
-        max-width: 320px;
-        margin-top: 64px;
-        font-size: 32px;
-        line-height: 35px;
-    }
-}
-
-@media screen and (max-width: 320px) {
-    .content {
-        max-width: 288px;
-        margin: 0 16px;
-    }
-
-    .content__title {
-        margin: 0;
-        max-width: 288px;
-        margin-top: 64px;
-        font-size: 32px;
-        line-height: 35px;
+        max-width: 512px;
+        margin: auto;
     }
 }
 
