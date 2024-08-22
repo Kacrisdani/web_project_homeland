@@ -10,6 +10,7 @@ Nessa sprint exploramos:
 
 Foi um projeto bem desafiador!
 
+Este [e o link público: https://kacrisdani.github.io/web_project_homeland/
 Essa é a aparência do produto final:
 
 <img src="./images/1280.png" alt="Tripleten Art Gallery">
