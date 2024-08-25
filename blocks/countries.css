@@ -1,0 +1,15 @@
+.countries {
+    max-width: 984px;
+    display: grid;
+    grid-template-columns: 460px 456px;
+    grid-template-rows: repeat(2);
+    gap: 40px;
+}
+
+.countries__title {
+    max-width: 460px;
+    font-size: 72px;
+    line-height: 76px;
+    margin: 0;
+    
+}
