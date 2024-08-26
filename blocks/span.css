@@ -10,6 +10,16 @@
     margin-bottom: 64px;
 }
 
+.span__places {
+    width: 100%;
+    font-weight: 400;
+    font-size: 18px;
+    font-family: "Inter";
+    line-height: 29.4px;
+    color: #ffffff;
+    margin-bottom: 80px;
+}
+
 @media screen and (max-width: 544px) {
     .span {
         max-width: 288px;
