@@ -1,0 +1,187 @@
+.places {
+    width: 100%;
+    max-width: 984px;
+    margin: 0 auto;
+}
+
+.places__card {
+    display: grid;
+    grid-template-columns: 460px 486px;
+    grid-template-areas: 
+        "title artist"
+        "image text"
+        "button text"
+        ". text";
+    row-gap: 48px;
+    column-gap: 40px;
+    margin-bottom: 80px;
+}
+
+.places__card .title {
+    grid-area: title;
+    max-width: 460px;
+    font-size: 72px;
+    line-height: 76px;
+    margin: 0;
+
+}
+
+.places__card .image {
+    grid-area: image;
+    width: 100%;
+    width: 460px;
+    height: 460px;
+    object-fit: cover;
+    box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.5);
+}
+
+.places__card .artist {
+    grid-area: artist;
+    margin: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end; 
+}
+
+.places__card_name {
+    grid-area: artist;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.places__card .text {
+    grid-area: text;
+    width: 100%;
+    font-size: 18px;
+    line-height: 29.4px;
+    color: #ffffff;
+    margin: 0;
+}
+
+.places__card .button {
+    grid-area: button;
+    width: 356px;
+    height: 48px;
+    background: linear-gradient(90deg, rgba(2, 120, 254, 1) 0%, rgba(0, 58, 123, 1));
+    color: #FFFFFF;
+    border-radius: 4px;
+    padding: 0;
+    font-weight: 600;
+    font-size: 18px;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.25);
+    display: block;
+    line-height: 48px;
+}
+
+.places__card_link {
+    color: inherit; 
+    text-decoration: none; 
+    display: block;
+    height: 100%;
+}
+    
+.button:hover {
+    background: linear-gradient(90deg, rgba(2, 120, 254, 0.25) 0%, rgba(0, 58, 123, 0.25) 99.98%);
+}
+
+@media screen and (max-width: 1024px) {
+    .places {
+        width: 976px;
+        margin: 88px 24px;
+    }
+
+    .places__card {
+        grid-template-columns: 460px 426px;
+        column-gap: 40px;
+        margin-bottom: 72px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .places {
+        width: 720px;
+        margin: 88px 24px;
+    }
+
+    .places__card {
+        grid-template-columns: 355px 300px;
+        column-gap: 13px;
+        margin-bottom: 72px;
+    }
+
+    .places__card .title {
+        max-width: 288px;
+        font-size: 42px;
+        line-height: 46px;
+    }
+
+    .places__card .image {
+        max-width: 340px;
+        max-height: 340px;
+    }
+
+    .places__card .text {
+        max-width: 352px;
+        font-size: 16px;
+        line-height: 26px;
+        margin: 0;
+    }
+
+    .places__card .button {
+        width: 100%;
+        max-width: 355px;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 544px) {
+    .places {
+        width: 288px;
+        margin: auto;
+    }
+
+    .places__card {
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "title"
+        "artist"
+        "image"
+        "text"
+        "button";
+        gap: 30px;
+    }
+
+    .places__card .title {
+        max-width: 288px;
+        font-size: 32px;
+        line-height: 35px;
+    }
+
+    .places__card .image {
+        width: 100%;
+        box-shadow: none;
+    }
+     
+    .places__card .artist {
+        max-width: 288px;
+    }
+
+    .places__card_name {
+        max-width: 288px;
+    }
+
+    .places__card .text {
+        max-width: 288px;
+    }
+
+    .places__card .button {
+        width: 288px;
+        font-size: 14px;
+    }
+}
