@@ -91,13 +91,14 @@
 
 @media screen and (max-width: 1024px) {
     .places {
-        width: 976px;
-        margin: 88px 24px;
+        max-width: 976px;
+        margin: 88px auto;
     }
 
     .places__card {
-        grid-template-columns: 460px 426px;
+        grid-template-columns: 1fr 1fr;
         column-gap: 40px;
+        padding: 24px;
         margin-bottom: 72px;
     }
 }
@@ -105,13 +106,14 @@
 
 @media screen and (max-width: 768px) {
     .places {
-        width: 720px;
-        margin: 88px 24px;
+        max-width: 720px;
+        margin: 88px auto;
     }
 
     .places__card {
-        grid-template-columns: 355px 300px;
+        grid-template-columns: 1fr 1fr;
         column-gap: 13px;
+        padding: 24px;
         margin-bottom: 72px;
     }
 
@@ -142,8 +144,64 @@
 
 @media screen and (max-width: 544px) {
     .places {
-        width: 288px;
+        max-width: 288px;
+        margin: 62px auto;
+    }
+
+    .places__card {
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "title"
+        "artist"
+        "image"
+        "text"
+        "button";
+        gap: 30px;
+        padding: 0px;
+    }
+
+    .places__card .title {
+        max-width: 288px;
+        font-size: 32px;
+        line-height: 35px;
+        /* margin-left: 16px; */
+        
+    }
+
+    .places__card .image {
+        max-width: 100%;
+        max-height: 320px;
+        flex-basis: auto;
+        flex-grow: 0;
+        box-shadow: none;
         margin: auto;
+    }
+     
+    .places__card .artist {
+        max-width: 260px;
+        /* margin-left: 16px; */
+    }
+
+    .places__card_name {
+        max-width: 288px;
+    }
+
+    .places__card .text {
+        max-width: 288px;
+        /* margin: auto; */
+    }
+
+    .places__card .button {
+        width: 288px;
+        font-size: 14px;
+        margin: auto;
+    }
+}
+/* 
+@media screen and (max-width: 544px) {
+    .places {
+        width: 320px;
+        margin: 0;
     }
 
     .places__card {
@@ -161,27 +219,39 @@
         max-width: 288px;
         font-size: 32px;
         line-height: 35px;
+        margin-left: 16px;
+        
     }
 
     .places__card .image {
-        width: 100%;
+        max-width: 320px;
+        max-height: 320px;
+        flex-basis: auto;
+        flex-grow: 0;
         box-shadow: none;
+        margin: auto;
     }
      
     .places__card .artist {
-        max-width: 288px;
+        max-width: 260px;
+        margin-left: 16px;
     }
 
     .places__card_name {
         max-width: 288px;
+        margin-left: initial;
     }
 
     .places__card .text {
         max-width: 288px;
+        margin: auto;
     }
 
     .places__card .button {
         width: 288px;
         font-size: 14px;
+        margin: auto;
     }
-}
+} */
+
+
