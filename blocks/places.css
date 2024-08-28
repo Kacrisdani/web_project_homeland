@@ -31,7 +31,7 @@
     width: 460px;
     height: 460px;
     object-fit: cover;
-    box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.5);
+    box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.5); 
 }
 
 .places__artist {
@@ -73,7 +73,7 @@
     grid-area: button;
     width: 356px;
     height: 48px;
-    background: linear-gradient(90deg, #0278FE 0%, #003A7B 99.98%);
+    background: linear-gradient(90deg,rgba(2, 120, 254, 1) 0%, rgba(0, 58, 123, 1) 99.98%);
     color: #FFFFFF;
     border-radius: 4px;
     padding: 0;
@@ -96,9 +96,8 @@
 }
     
 .button:hover {
-    background: linear-gradient (90deg, rgba(2, 120, 254, 0.25) 0%, rgba(0, 58, 123, 0.25) 99.98%);
+    background: linear-gradient(90deg, rgba(2, 120, 254, 0.25) 0%, rgba(0, 58, 123, 0.25) 99.98%);
 }
-
 
 @media screen and (max-width: 1024px) {
     .places {
@@ -175,8 +174,6 @@
         max-width: 288px;
         font-size: 32px;
         line-height: 35px;
-        /* margin-left: 16px; */
-        
     }
 
     .places__image {
@@ -189,7 +186,6 @@
      
     .places__artist {
         max-width: 260px;
-        /* margin-left: 16px; */
     }
 
     .places__name {
@@ -198,7 +194,6 @@
 
     .places__paragraph {
         max-width: 288px;
-        /* margin: auto; */
     }
 
     .places__button {
