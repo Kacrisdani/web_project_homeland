@@ -31,7 +31,7 @@
     width: 460px;
     height: 460px;
     object-fit: cover;
-    box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.5); 
+    box-shadow: 10px 10px 25px 0px #00000080;
 }
 
 .places__artist {
@@ -87,7 +87,7 @@
     border: none;
     text-align: center;
     cursor: pointer;
-    box-shadow: 5px 5px 25px 0px rgba(0, 0, 0, 0.25);
+    box-shadow: 5px 5px 10px 0px #00000040;
     display: block;
     line-height: 48px;
     text-decoration: none;
