@@ -160,7 +160,7 @@
 
 @media screen and (max-width: 544px) {
     .places {
-        max-width: 288px;
+        max-width: 100%;
         margin: 62px auto;
     }
 
@@ -177,9 +177,10 @@
     }
 
     .places__title {
-        max-width: 288px;
+        width: 100%;
         font-size: 32px;
         line-height: 35px;
+        margin: auto;
     }
 
     .places__image {
@@ -191,7 +192,8 @@
     }
      
     .places__artist {
-        max-width: 260px;
+        max-width: 100%;
+        margin: auto;
     }
 
     .places__name {
@@ -200,6 +202,11 @@
 
     .places__paragraph {
         max-width: 288px;
+        margin: auto;
+    }
+
+    .places__paragraph_text {
+        margin-left: 0;
     }
 
     .places__button {
